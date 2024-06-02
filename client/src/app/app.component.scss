@@ -9,18 +9,20 @@
 .card {
    width: 800px;
    position: relative;
-   background-image: linear-gradient(to top, rgba(255, 55, 0, 0.35), rgba(255, 55, 0, 0.8));
+   background-image: linear-gradient(to bottom, rgb(255, 205, 255), rgb(255, 105, 105));
+   // background-color: white;
    color: rgb(0, 0, 0);
    margin: 1rem -400px 1rem;
    left: 50%;
    border-radius: 9px;
-   border: 2px solid rgb(255, 55, 0);
+   border: 3px solid black;
+   outline: 3px solid rgb(255, 245, 155);;
 }
 img { float: left; }
 h1 {
    font-family: 'DS Moulin Rouge';
    font-size: 102px;
    font-weight: 100;
-   color: rgba(0, 0, 0, 0.65);
-   text-shadow: -1px -1px 1px rgb(255, 55, 0);
+   color: rgb(255, 245, 155);
+   text-shadow: 3px 3px 3px rgb(50, 45, 0);
 }

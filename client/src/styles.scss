@@ -1,1 +1,31 @@
-html, body { margin: 0; box-sizing: border-box !important; }
+html, body { 
+   margin: 0; 
+   box-sizing: border-box !important; 
+}
+.centered {
+   width: 100%;
+   position: relative;
+   left: 0;
+   margin: 0 0 0 0;
+}
+@media only screen and (min-width: 600px) {
+
+}
+@media only screen and (min-width: 768px) {
+   .centered {
+      width: 800px;
+      position: relative;
+      left: 50%;
+      margin: 0 0 0 -400px;
+   }
+
+}
+@media only screen and (min-width: 800px) {
+   .centered {
+      width: 800px;
+      position: relative;
+      left: 50%;
+      margin: 0 0 0 -400px;
+   }
+
+}

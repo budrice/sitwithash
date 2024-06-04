@@ -1,12 +1,1 @@
-/* You can add global styles to this file, and also import other style files */
-@font-face {
-   font-family: 'DS Moulin Rouge';
-   src: url('../public/fonts/Romantiques.ttf')
-}
-body {
-   margin: 0;
-   padding: 0;
-   background-color: rgba(255, 200, 200, 0.9);
-   color: rgb(105, 0, 40);
-   font-size: 16px;
-}
+html, body { margin: 0; box-sizing: border-box !important; }

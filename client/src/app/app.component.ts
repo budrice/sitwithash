@@ -10,5 +10,5 @@ import { MastheadComponent } from "./masthead/masthead.component";
     imports: [RouterOutlet, MastheadComponent]
 })
 export class AppComponent {
-  
+  year = new Date().getFullYear();
 }

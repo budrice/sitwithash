@@ -32,9 +32,16 @@
               }
             ],
             "styles": [
+              "node_modules/lightbox2/dist/css/lightbox.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/template_style.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/lightbox2/dist/js/lightbox-plus-jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "src/scripts.js"
+            ]
           },
           "configurations": {
             "production": {

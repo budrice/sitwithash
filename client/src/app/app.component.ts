@@ -1,15 +1,33 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { MastheadComponent } from "./masthead/masthead.component";
-import { NavbarComponent } from "./navbar/navbar.component";
+import { NavbarComponent } from './navbar/navbar.component';
+import { MastheadComponent } from './masthead/masthead.component';
+import { AboutComponent } from './about/about.component';
+import { ServicesComponent } from './services/services.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
+import { PhotosComponent } from "./photos/photos.component";
+import { VideosComponent } from "./videos/videos.component";
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
-    imports: [RouterOutlet, MastheadComponent, NavbarComponent]
+    imports: [
+        RouterOutlet,
+        NavbarComponent,
+        MastheadComponent,
+        AboutComponent,
+        ServicesComponent,
+        PortfolioComponent,
+        ContactComponent,
+        FooterComponent,
+        PhotosComponent,
+        VideosComponent
+    ]
 })
 export class AppComponent {
-  year = new Date().getFullYear();
+  
 }

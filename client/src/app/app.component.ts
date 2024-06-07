@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { PhotosComponent } from "./photos/photos.component";
 import { VideosComponent } from "./videos/videos.component";
+import { ActionCallComponent } from "./action-call/action-call.component";
 
 @Component({
     selector: 'app-root',
@@ -25,7 +26,8 @@ import { VideosComponent } from "./videos/videos.component";
         ContactComponent,
         FooterComponent,
         PhotosComponent,
-        VideosComponent
+        VideosComponent,
+        ActionCallComponent
     ]
 })
 export class AppComponent {

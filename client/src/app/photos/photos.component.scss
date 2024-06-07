@@ -1,1 +1,11 @@
 .project-category { color: rgb(244, 58, 58); }
+#wrapper { max-width: 1000px; }
+.nav-link { color: rgb(255, 255, 255); cursor: pointer; }
+.nav-link:hover { color: rgb(205, 205, 205); }
+.nav-item { 
+   font-size: 0.65em;
+}
+.nav-item:active { 
+   background-color: #fff;
+   background-image: linear-gradient(to top, rgb(255, 205, 205), transparent);
+}
